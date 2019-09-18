@@ -1,0 +1,30 @@
+
+
+.header {
+
+
+color: magenta;
+font-family: comic sans ms;
+font-size: 100px;
+display: inline-block;
+
+}
+
+#text {
+color: magenta;
+font-family: Test;
+font-size: 50px;
+/*background: green;*/
+display: inline-block;
+
+
+}
+
+@font-face {
+
+font-family: "Test";
+src: url(fonts/RobotoSlab-Regular.ttf);
+
+
+}
+
