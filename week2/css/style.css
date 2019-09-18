@@ -1,0 +1,40 @@
+
+
+h1 {
+
+color: green;
+font-size: 50px;
+font-family: myFirstFont;
+
+}
+
+p {
+
+font-size: 50px;
+padding-left: 200px;
+background: aqua;
+
+}
+
+img {
+
+	float: right;
+	width: 300px;
+}
+
+@font-face {
+font-family: "myFirstFont";
+src: url(fonts/Modak-Regular.ttf);
+}
+
+
+
+
+
+
+
+
+
+
+
+
