@@ -38,7 +38,7 @@ if (buttonState == false) {
 } else {
 	noStroke();
 	
-	increase = increase + 0.25; 
+	increase = increase + 0.09; 
 
 	angle = map (sin (increase), -1, 1, 0, 1);
 
