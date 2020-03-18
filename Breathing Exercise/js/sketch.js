@@ -4,7 +4,7 @@ var breatheState = true;
 var angle = 325;
 var increase = 0;
 var startState = false;
-var val = 325;
+var val = 225;
 var countingState = false;
 var counting = 0;
 
@@ -23,7 +23,7 @@ noFill();
 
 stroke(map (angle, 0, 650, 190, 130),150,150)
 strokeWeight(map(angle, 0, 650, 20, 8));
-ellipse(width/2,height/2, angle + 325,angle + 325);
+ellipse(width/2,height/2, angle + 225,angle + 225);
 textSize(50);
 fill(255);
 
@@ -50,7 +50,7 @@ if (buttonState == false) {
 	// 	val = 0;
 	// }
 
-	angle = map(angle, 0, 1, 0, 650) - val;
+	angle = map(angle, 0, 1, 0, 450) - val;
 	
 	textSize(200);
 	fill(0,0, 10);
