@@ -73,9 +73,9 @@ if (buttonState == false) {
 	 	countingState = false;
 	}
 
-	if (angle >= 220) {
+	if (angle >= 210) {
 		breatheState = false;
-	} else if (angle <= -220) {
+	} else if (angle <= -210) {
 		breatheState = true;
 	}
 
