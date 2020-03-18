@@ -79,7 +79,7 @@ if (buttonState == false) {
 		breatheState = true;
 	}
 
-	if (counting == 11) {
+	if (counting == 7) {
 
 		buttonState = false;
 		counting = 0;
