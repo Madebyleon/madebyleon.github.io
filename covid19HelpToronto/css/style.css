@@ -1,0 +1,48 @@
+body {
+
+background-color: #03a9f470;
+
+
+}
+
+h1 {
+
+	font-size: 75px;
+	font-family: sans-serif;
+	color: black;
+	margin: auto;
+	text-align: center;
+}
+
+h2 {
+	font-size: 25px;
+	font-family: sans-serif;
+	color: black;
+	margin: auto;
+	text-align: center;
+
+
+}
+
+#tabBox {
+
+	text-decoration: none;
+	display: inline-block;
+	margin: 50px;
+	padding: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #8080806b;
+	border-radius: 15px;
+
+}
+
+a {
+
+font-size: 30px;
+font-family: sans-serif;
+color: black;
+
+
+
+}
