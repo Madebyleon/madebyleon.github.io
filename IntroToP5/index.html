@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Intro to Net Art with p5.js</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="p5.js"></script>
+  <script src="sketch.js"></script>
+
+</head>
+
+<body>
+<div id="heading">
+<h1>Intro to <i>Net Art<i> with p5.js</h1>
+</div>
+<br> <br>
+  <div id="sketch-holder-one" style="margin: auto; padding-left: 22px"></div>
+	<br> <br>
+
+<div id="bodyDiv">
+	<div style="display: inline-block;">
+	<img  src="https://p5js.org/assets/img/p5js.svg">
+	<p> <a target="none" href="https://p5js.org/">p5.js</a> is a JavaScript library for creative coding, with a focus on making coding accessible and inclusive for artists, designers, educators, beginners, and anyone else! p5.js is free and open-source.
+		<br> <br>
+	Using the metaphor of a sketch, p5.js has a full set of drawing functionality. However, you’re not limited to your drawing canvas. You can think of your whole browser page as your sketch, including HTML5 objects for text, input, video, webcam, and sound.</p>
+
+	<h2 style="margin: 0px">It is <i>also..</i></h2>
+
+	<p>A community of designers, creative coders, artists and problem solvers who are keen to learn, make and help each other. This is where we begin. :) </p>
+</div>
+	<br><br><br>
+	<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+
+	<h2> IDE Basics</h2>
+
+	<div>
+	<img src="images/ide.png" style="width: 600px">
+	<p> This is the <a target="none" href="https://editor.p5js.org/"> IDE or the <i>Integrated Development Environment</i> </a> that we will be working with. 
+		<br>
+		 It basically helps us to code realtime and see what we are doing in a relatively quick and simple way.
+		 <br> <br>
+		 Things to look at. 
+ 		<br>
+		 - There is a play button on the top left which runs your code. 
+		<br>
+		 - There is a stop button, that stops your code. 
+	</p>
+	<br><br>
+
+	<img src="images/ide2.png" style="width: 600px">
+	<p>This IDE is completely web based where you can save your code and access it on any browser. 
+		<br>
+
+	You can also see a bunch of really interesting examples to learn from too. </p>
+	<br> <br>
+
+	<img src="images/ide3.png" style="width: 600px">
+
+	<p>This is where we will be writing our code. It is totally okay, if this looks daunting as of now. 
+		<br> <br>
+
+	It gets less scary. </p>
+	</div>
+
+	<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+
+	<h2> <a target="none" href="https://p5js.org/reference/"> p5 References </a></h2>
+
+	<p>This is the single most important resource for you to start learning and to continue learning new things. <br><br>
+	p5 is an open source JavaScript library and platform. This means that if you have a question or cannot understand how to do what you want to do, this is where you can go.</p>
+
+	<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+
+	<h2>Learning to Draw with p5</h2>
+
+	<p>There is a basic code structure to consider when starting out with p5. 
+
+
+	You will notice a bunch of text which reads <i>function setup()</i> and some stuff inside it. 
+
+
+And another bunch of code that reads, <i>function draw()</i> and some stuff inside it. 
+
+
+
+The first thing to note, is that when a code is exececuted, there is an order to it. <br><br>
+
+	<img src="images/ide3.png" style="width: 600px">
+	<br>
+
+The function <i>setup()</i> happens <b>first and only</b> once. 
+
+<br><br>
+
+The function <i>draw()</i> happens <b>again and again and again..</b>
+
+<br><br>
+
+The next thing you will notice is a function called <i>createCanvas(400,400) // (width, height)</i> <br>This is a function which firstly draws our canvas that we will be drawing on. This is the same as creating a canvas on Illustrator. You need to define the width and height of the canvas, this is in pixels. 
+
+	</p>
+
+	<h2>Basic Shapes</h2>
+
+<img src="images/draw1.png" style="width: 1100px">
+<img src="images/draw2.png" style="width: 1100px">
+<img src="images/draw3.png" style="width: 1100px">
+<img src="images/draw4.png" style="width: 1100px">
+<img src="images/draw5.png" style="width: 1100px">
+<img src="images/draw6.png" style="width: 1100px">
+<img src="images/draw7.png" style="width: 1100px">
+<img src="images/draw8.png" style="width: 1100px">
+<img src="images/draw9.png" style="width: 1100px">
+
+
+	<h2>Lines, Curves and Custom Shapes</h2>
+
+<img src="images/curve1.png" style="width: 1100px">
+<img src="images/curve2.png" style="width: 1100px">
+<img src="images/curve3.png" style="width: 1100px">
+<img src="images/curve4.png" style="width: 1100px">
+<img src="images/curve5.png" style="width: 1100px">
+<img src="images/curve6.png" style="width: 1100px">
+
+<p>A really great visualisation of how Quadratic Curves and Bezier Curves work can be found <a target="none" href="https://programmingdesignsystems.com/shape/custom-shapes/index.html"> here</a>! </p>
+
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+
+
+<img style="width: 1100px" src="https://media.giphy.com/media/CzbiCJTYOzHTW/giphy.gif">
+<h2 style="display: inline-block; margin-bottom: 0px" >Workshop Exercise!</h2>
+<p>Take an existing artwork, photograph, image and drawing that you like and try recreating it in p5. <br><br>
+
+This is <i>obviously not</i> a test but we can share what we make and then learn from that</p>
+
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+
+	<h2>Basics of Animation</h2>
+
+	<div id="sketch-holder-two" style="margin: auto; padding-left: 22px"></div>
+
+	<img src="images/animation1.png" style="width: 1100px">
+
+	<p>Now, notice when we move the background from the setup to the draw loop, we suddenly have an <b>animation!</b></p>
+
+		<div id="sketch-holder-three" style="margin: auto; padding-left: 22px"></div>
+
+		<img src="images/animation2.png" style="width: 1100px">
+
+		<p>Now that we have something animated, we can start playing with this really quickly and start manipulating it as best as you see fit</p>
+
+			<div id="sketch-holder-four" style="margin: auto; padding-left: 22px"></div>
+
+			<img src="images/animation3.png" style="width: 1100px">
+
+			<h2>colorMode() and Opacity</h2>
+
+			<p>By default, we are using (r,g,b) as our colors but p5 also allows you to write colors in <b>HSB</b> which stands for Hue, Saturation and Brightness. Again this takes values from 0 - 255.
+
+				<br><br>
+
+				What this allows us to do, is change colour by changing only one value which is the Hue. 
+
+				<br><br>
+					</p>
+
+				<div id="sketch-holder-five" style="margin: auto; padding-left: 22px"></div>
+
+				<img src="images/animation4.png" style="width: 1100px">
+
+				<div id="sketch-holder-six" style="margin: auto; padding-left: 22px"></div>
+
+				<img src="images/animation5.png" style="width: 1100px">
+
+				<p>
+				Again, a really great visualisation <a target="none" href="https://programmingdesignsystems.com/color/color-models-and-color-spaces/index.html#color-models-and-color-spaces-JDQ1fRD">here</a>!</p>
+
+				<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+
+	<h2>The random() function</h2>
+
+		<p>We can start this final part of the workshop by asking ourself, what really is <b>random</b>. <br><br>
+
+			In mathimatical terms, you can imagine random to be the generation of a random number or variable. Imagibe throwing a die and getting a value. This is completely random. <br><br> Everytime you throw the die, there is an equal chance of getting a number from 0 to 6 
+
+			<br><br>
+
+			We as designers, can visualise this into so many things. </p>
+
+			<div id="sketch-holder-eight" style="margin: auto; padding-left: 22px"></div>
+
+			<img src="images/random2.png" style="width: 1100px">
+			<br><br><br>
+
+			<div id="sketch-holder-seven" style="margin: auto; padding-left: 22px"></div>
+
+			<img src="images/random1.png" style="width: 1100px">
+
+			<br><br><br>
+
+
+		<div id="sketch-holder-nine" style="margin: auto; padding-left: 22px"></div>
+
+		<img src="images/random3.png" style="width: 1100px">
+
+		<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+
+
+		<h2>More References</h2>
+
+		<img src="https://media.giphy.com/media/l0HlMlX4aKMk10hhe/giphy.gif" style="width: 1100px">
+		<p> <a target="none" href="https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw"> The Coding Train </a>// This is the first guide to learning more p5 and creative coding that you should look at. <br> <br> Daniel Shiffman is amazing!</p>
+
+		<br><br>
+
+		<p><a target="none" href="http://www.dontfeartheinternet.com/"> Don't Fear The Internet</a>
+		If you'd like to learn more about the web and how to put your code on the internet, this is a really great blog to follow. </p>
+
+		<h2 style="text-align: center; font-size: 30px"> This is me: <a href="https://www.instagram.com/work_inprocess/">@work_inprocess</a> | Leon Lu</h2>
+
+	
+</div>
+
+
+
+</body>
+</html>

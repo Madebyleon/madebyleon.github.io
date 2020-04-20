@@ -8,6 +8,10 @@ var val = 225;
 var countingState = false;
 var counting = 0;
 
+function preload() {
+  img = loadImage('assets/image1.png');
+}
+
 function setup() {
 //loadFont('assets/coolvetica.ttf', drawText);
 createCanvas(800,800);
@@ -30,7 +34,8 @@ fill(255);
 if (buttonState == false) {
 	noStroke();
 	fill(0,0, 10);
-	text('Click Me!', width/2, height/2);
+	image(img, width/2, height/2);
+	text('Click Me!', width/2, height/2 + 100);
 	angle = 0;
 	increase = 0;
 	counting = 0;
