@@ -314,6 +314,36 @@ p.a = p.a + (p.random(-15,15));
 }
 }
 
+var sketch10 = function(p){
+
+p.r = 255;
+
+p.setup = function () {
+var canvasTwo = p.createCanvas(
+  1100, 500);
+
+canvasTwo.parent('sketch-holder-ten');
+
+}
+
+p.draw = function () {
+p.background(255);
+p.noStroke();
+p.fill(p.r, 0,0);
+
+p.ellipse (550, 250, 200,200);
+
+if (p.mouseX > 550) {
+
+  p.r = 0;
+} else {
+
+p.r = 255;
+
+}
+}
+}
+
 var myp5 = new p5(sketch1);
 var myp5Two = new p5(sketch2);
 var myp5Three = new p5(sketch3);
@@ -323,6 +353,8 @@ var myp5Six = new p5(sketch6);
 var myp5Seven = new p5(sketch7);
 var myp5Eight = new p5(sketch8);
 var myp5Nine = new p5(sketch9);
+
+var myp5Ten = new p5(sketch10);
 
 
 function resetBackground() {
