@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Putting your Artwork on the Internet</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+	<script type="text/javascript" src="p5.js"></script>
+	<script type="text/javascript" src="sketch1.js"></script>
+
+
+</head>
+
+
+<body>
+	<div id="heading">
+<h1>Making + Publishing Net Art! (pt. 2)</h1>
+</div>
+
+
+<br> <br>
+  <div id="sketch-holder-one" style="margin: auto; padding-left: 22px"></div>
+<br> <br>
+
+<div id="bodyDiv">
+	<p style="padding-left: 600px; font-size: 15px"> <i>Note: Incase you missed part 1 of this workshop series, check it out <a target="none" href="https://madebyleon.github.io/IntroToP5/"> here!</a> </i></p>
+<br>
+
+
+<h1>An Overview of the Web Development</h1>
+
+<img style="width: 1100px" src="https://cdn.clipart.email/35fa4dfc4c99ec6ee63e74e6ff5a3ef8_html5-js-css3-logo-png_3960-1500.png">
+
+<p>A <i>very very</i> broad understanding of most things you see on a webpage can be broken down into HTML, CSS and JavaScript. <br> <br>
+
+<b>HTML</b> represents the content and the structure of a webpage. This is the text, the images, the hyperlinks and so on. <br> <br>
+
+<b>CSS or Cascading Style Sheets</b> represents the presentation of the content. So the font face, the colours, the background, the layout etc. <br> <br>
+
+and lastly, <b>JavaScript</b> defines the interaction or the behaviour of the webpage. When something can be clicked or opened. 
+
+<br> <br>
+
+<i>I like to imagine the relationship between these as a tree. HTML are the branches and structure of the tree, CSS represents the colour of the leaves, the size of the fruit and JavaScript is the ability to pick the fruit, shake the tree. </i>
+
+</p>
+
+
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+
+	
+<h1>HTML Basics</h1>
+
+<p>HTML stands for Hyper Text Markup Language, which uses this idea of <i>&lt;tags&gt;</i> to describe text documents onto the browser. Our tool here is the browser itself. It deciphers the text that we write into content that can then be viewed on a browser window. <br><br> For this workshop, we will be using <a target="none" href="https://www.google.ca/chrome/?brand=CHBD&gclid=CjwKCAjw5Ij2BRBdEiwA0Frc9UAI0J_Wvlh976z1xjyv0yx9bdanP2YrqJEKbKELrvapfCmit3yqORoCX5UQAvD_BwE&gclsrc=aw.ds">Google Chrome </a> as our browser of choice.</p>
+<br><br>
+
+<h2>Elements: &lt;tags&gt;</h2>
+<p>Elements provide the structure of the HTML page. They tell the browser how to read and interpret certain content based on what type it is. Each element takes the form of "&lt;tags&gt;" are how we can input content onto the browser. Most &lt;tag&gt; require an opening and a closing. The syntax of all &lt;tags&gt; are represented by:- <br><br> <img src="images/img1.png" style="width: 300px"> <br><br> Some commonly used &lt;tags&gt; are:
+
+<ul>
+	<li>&lt;p&gt; - Paragraph</li>
+	<li>&lt;b&gt; - Bold </li>
+	<li>&lt;i&gt; - Italics </li>
+	<li>&lt;a href="...."&gt; - Link to Another Page</li>
+	<li>&lt;img src= "...."&gt; - Image</li>
+	<li>&lt;br&gt; - Line Break </li>
+
+</ul>
+</p>
+
+<h2>Attributes</h2>
+<p>All HTML elements have attributes. This is additional information that you can provide for the element. They usually come in name/value pairs.</p>
+
+<img src="images/img3.png" style="width: 700px">
+<br>
+
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+
+<h2>Sublime Text Editor</h2>
+<p > <img style="width: 200px" src="https://upload.wikimedia.org/wikipedia/en/d/d2/Sublime_Text_3_logo.png"> We will be using <a target="none" href="https://www.sublimetext.com/3">Sublime Text Editor</a> as our text editor of choice. A text editor is simply a program that holds the code or text that you write. Text Editors like Sublime Text are designed to identify syntax and special characters depending on the coding language they are being called upon. You could simply use a notepad or even Microsoft Word to write code if you'd like.</p>
+
+<img src="images/img5.png" style="width: 500px">
+
+<img src="images/img6.png" style="width: 500px">
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+<div>
+	<img src="images/img7a.png" style="width: 500px">
+<img src="images/img7.png" style="width: 500px">
+
+</div>
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+<img src="images/img8a.png" style="width: 500px">
+<img src="images/img8.png" style="width: 500px">
+
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+<img src="images/img9a.png" style="width: 500px">
+<img src="images/img9.png" style="width: 500px">
+
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+<img src="images/img10b.png" style="width: 500px">
+<img src="images/img10.png" style="width: 500px">
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+
+<img src="images/img11.png" style="width: 500px">
+<img src="images/img11a.png" style="width: 500px">
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+
+<h2>File Organisation</h2>
+<p>Making sure that all your files are named correctly and organised well is very important when working with anything to do with code and specially important when working in HTML, CSS and JS.
+<br><br>
+
+Things to note here. <br>
+- I have called my html file "index.html" on purpose. I'll explain this a bit further when we start uploading our code. <br>
+- I have made a separate folder for images. 
+<br>
+- I have purposely kept all names of files starting with lower case letters without any spaces. 
+<br>
+- I will make separate folders for CSS and JavaScript too.</p>
+<img src="images/img10a.png" style="width: 900px">
+
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+
+<h2>Developer Tools</h2>
+
+<p>One of the most useful tools that is built in on your browser is the inspector. This allows you to access the source code of your webpage and also is a great way of testing your code and seeing how changes would affect your layout instantly. <br>
+Note: Remember though, making changes on the inspector window <b>does not</b> make changes in your original source code</p>
+
+<img src="images/img12.png" style="width: 500px">
+<img src="images/img12a.png" style="width: 500px">
+
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+
+<h2>Exercise: Create your first HTML page</h2>
+
+<img src="https://66.media.tumblr.com/0200aa6844c70bf379bc96199841b797/tumblr_oek3ky3sxY1ucjumoo1_500.gif" style="width: 1100px">
+<p>Using the tags and workflow we discussed, create your very first HTML webpage. Remember, this is only content for the time being. Don't worry too much about font, colour, size etc. This is ONLY content.
+<a href="https://www.w3schools.com/tags/default.asp"> Here is a reference list of many other HTML tags that you can use.</a> <br><br>
+
+You have 15 mins. Try including a header, a paragraph, a few images and a hyperlink.</p>
+
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+
+<h1>CSS Basics</h1>
+
+<p>Cascading Style Sheet (CSS) is a language that describes the style of an HTML document. This is a standard for styling pages on web which include layout, design and overall presentation of web pages.
+
+<br><br>
+There are three different ways in which you can apply CSS properties to your HTML page.<br><br>
+
+- Inline CSS<br>
+- In header CSS <br>
+- External Stylesheet (Preferred)<br><br></p>
+
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+
+<h2>Inline CSS</h2>
+
+<p>“Inline” CSS implies that CSS is applied directly within the HTML tag of the document, using an attribute within the tags called style.</p>
+
+
+<img src="images/css1.png" style="width: 900px">
+<img src="images/css1a.png" style="width: 900px">
+
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+
+<h2>In header CSS</h2>
+
+<p>In header CSS implies that the CSS is applied to the header tag in the HTML document. This is done by including a &lt;style&gt; tag</p>
+
+<img src="images/css2a.png" style="width: 500px">
+<img src="images/css2.png" style="width: 500px">
+
+
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+
+<h2>External Stylesheet</h2>
+
+<p>The most preferred way of using CSS is by putting it in an entirely new document and linking to it in your &lt;head&gt; tag by declaring it.</p>
+
+
+<img src="images/css3.png" style="width: 500px">
+<img src="images/css3b.png" style="width: 500px">
+<img src="images/css3a.png" style="width: 500px">
+<img src="images/css3c.png" style="width: 500px">
+<img src="images/css3d.png" style="width: 900px">
+
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+
+<h2>&lt;div&gt; tag</h2>
+
+<p>&lt;div&gt; is useful for grouping together a bunch of different HTML elements, and applying various CSS properties to them at one go.</p>
+
+<img src="images/div1.png" style="width: 500px">
+<img src="images/div1a.png" style="width: 500px">
+
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+
+<h2>The id attribute</h2>
+
+<p> <b>id</b> is an attribute that you can add to almost any tag in order to give them certain properties within the page. <b>id</b> specifies a unique id for an HTML element (the value must be unique within the HTML document).
+
+<b>id</b> is mostly used to point to a stylesheet, and by JavaScript (via HTML DOM) to manipulate the element with the specific id.</p>
+
+<img src="images/id.png" style="width: 500px">
+<img src="images/id1.png" style="width: 500px">
+<img src="images/id2.png" style="width: 900px">
+
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+
+
+<h1>JavaScript Basics</h1>
+
+<p>JavaScript is a high-level programming language designed specifically for the World Wide Web.
+	<br><br>
+Its main purpose is to bring interactivity and scripting into the browser in order to bring a diversity of behaviors in to the client-side of a webpage -- so it enables your site to respond to more sophisticated user input than just clicking on links. <br><br>
+Basically, JavaScript lets your user do *much more* with your page!</p>
+
+<div style="display: table-caption;">
+<p>HTML Side</p>
+<img src="images/js1.png" style="width: 500px">
+<img src="images/js2.png" style="width: 900px">
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+<p>Folder Organisation</p>
+<img src="images/js7.png" style="width: 900px">
+
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+<p>JS Side</p>
+<img src="images/js3.png" style="width: 500px">
+<img src="images/js4.png" style="width: 500px">
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+
+<p>On the Browser: Before Click</p>
+<img src="images/js5.png" style="width: 500px">
+<p>On the Browser: After Click</p>
+<img src="images/js6.png" style="width: 500px">
+</div>
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+<h2>Including your p5 Sketch</h2>
+
+<p>As a quick refresher, p5 is a JavaScript Library designed to make it easier to make interactions, animations and visualisations on the web. You will need to do a few things to include this library into your html web page. <br><br>
+
+You can download the library  <a target="none" href="https://p5js.org/download/">here</a> and call it in your header.
+
+<br><br>
+
+You will also need to reference your sketch in the header. This is the code that you've written using the p5 editor.
+</p>
+
+<img src="images/p5.png" style="width: 900px">
+<img src="images/p5a.png" style="width: 900px">
+
+
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+
+<h1>Publishing your WebPage using Github</h1>
+
+<img style="width: 400px" src="images/git.png">
+
+<p>Github is an online repository of code that anyone can access and call to use for their work. It is extensively by large and small organisations to collaboratively work on code and track the progress of complex systems. <br><br>We will be using a free server space via the Github repository.<br><br>
+
+We will be using Github Pages. To host our code. This is a free online server that allows us to push code to a server and view it from anywhere on a web browser. <br><br>
+- First we need to sign up to Github <a target="none" href="https://github.com/">here.</a>. <br><br>
+- Next, we will be using the desktop application to push our code to the GitHub servers. 
+<br><br>
+- Download the Desktop app <a target="none" href="https://desktop.github.com/"> here.</a>. 
+</p>
+
+<img src="images/git1.png" style="width: 900px">
+<img src="images/git2.png" style="width: 900px">
+<img style="display: table-caption; width: 300px" src="images/git3.png">
+
+<p>Name the repository the same as your username. <br><br>
+
+So [username].github.io<br><br>
+
+Mine is madebyleon.github.io</p>
+
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+<img style="display: table-caption; width: 300px" src="images/git5.png">
+
+<p>Next you want to specify the location of the local folder on your computer.
+Mine is under ..Documents/GitHub/Sites 
+</p>
+
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+
+<img style="display: table-caption; width: 900px" src="images/git7.png">
+
+<p>This is how your Github Desktop looks like. When you make changes to your local folder, it will appear over here too.</p>
+
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+
+<img style=" width: 500px" src="images/git10.png">
+
+<img style="width: 500px" src="images/git11.png">
+
+
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+
+<img style="width: 900px" src="images/git12.png">
+
+<p>Finally you can now "push" your code to the internet</p>
+
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+
+<img style="width: 500px" src="https://miro.medium.com/max/914/1*MrPaZh_Peq3VBk-aLOGSVQ.gif">
+
+<p>Do make sure that you uncheck the keep code private tab.</p>
+
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+
+<h1>~Voila!~</h1>
+
+<img style="width: 1100px" src="https://media1.giphy.com/media/QMkPpxPDYY0fu/giphy.gif?cid=ecf05e47ba2ac3a6c6d7024f660f26deefad7fb43f372754&rid=giphy.gif">
+
+<p>Your webpage is on the internet and can be shared with anyone around the world.<br><br> 
+The url of your webpage will be [username].github.io/[folderName]. <br><br>
+
+Incase you did not save your html file as index.html then you would also need to add that to the end of your url ... [folderName]/filename.html</p>
+
+
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+
+<h2>Additional Resources</h2>
+
+<p>There are so many great resources out there. Here are only a few of them.<br><br>
+
+- A very comprehensive blog post about how to setup your Github account to use Github Pages <a target="none" href="https://medium.com/@svinkle/publish-and-share-your-own-website-for-free-with-github-2eff049a1cb5"></a> <br><br>
+- If you want to include multiple p5 sketches on the same page. 
+
+<a target="none" href="https://www.youtube.com/watch?v=Su792jEauZg"> This video tutorials shows your how. </a><br><br>
+- General Learnings of the Internet and the Web <a href="http://www.dontfeartheinternet.com/"> here</a>
+</p>
+<div style="width: 95%; height: 3px; background-color: #00000061; margin: auto"></div>
+<h1> <a target="none" href="https://www.instagram.com/work_inprocess/">@work_inprocess</a> | Leon Lu</h1>
+
+</div>
+</body>
+</html>
