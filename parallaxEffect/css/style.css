@@ -1,0 +1,68 @@
+html, body {
+
+	height: 100%;
+	margin: 0;
+}
+
+.section-1, .section-2, .section-3, .section-4 {
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+background-attachment: fixed;
+position: relative;
+
+}
+
+
+.caption {
+
+position: absolute;
+top: 500px;
+left: 0px;
+width: 100%;
+text-align: center;
+
+
+}
+
+.caption-text {
+
+background-color: white;
+font-size: 50px;
+padding: 20px;
+
+}
+
+.section-text {
+
+font-size: 25px;
+padding: 5px;
+
+
+}
+
+
+
+.section-1 {
+
+background-image: url(https://terrigen-cdn-dev.marvel.com/content/prod/1x/theavengers_lob_crd_03.jpg);
+}
+
+.section-2 {
+
+background-image: url(https://imgix.bustle.com/uploads/image/2020/8/27/047f825f-518f-44af-b054-3c16afb10777-avengers-endgame-sign-2.jpg);
+
+}
+
+.section-3 {
+
+background-image: url(https://i.etsystatic.com/15963200/r/il/66b2eb/1730781305/il_570xN.1730781305_iihp.jpg);
+}
+
+.section-4 {
+
+background-image: url(https://cdn.britannica.com/36/198336-050-A9B8AA86/Chadwick-Boseman-Tchalla-Black-Panther-Black.jpg);
+
+}
