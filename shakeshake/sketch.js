@@ -6,7 +6,7 @@ let yPos
 
 function setup() {
 
-createCanvas(300, 500);
+createCanvas(600, 900);
 noStroke();
 colorMode(HSB);
 
@@ -16,7 +16,8 @@ yPos = height;
 
 
 function draw() {
-	background(0, 0, 200);
+
+background(100, 20, 200);
 fill(val, 255,255);
 ellipse(xPos, yPos - val, 50,50);
 
