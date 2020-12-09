@@ -16,7 +16,7 @@ yPos = height;
 
 
 function draw() {
-	background(225);
+	background(0, 0, 200);
 fill(val, 255,255);
 ellipse(xPos, yPos - val, 50,50);
 
@@ -31,5 +31,5 @@ if (val >=0) {
 
 function deviceMoved() {
 
-	val = val + 5;
+	val = val + 2;
 }
