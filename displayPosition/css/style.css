@@ -1,0 +1,124 @@
+
+body {
+
+height: 2000px;
+
+}
+
+
+#header {
+
+width: 100%; /*This is the percentage of the screen*/
+height: 200px;
+background-color: #ffd969;
+
+}
+
+#logo {
+
+width: 200px;
+height: 200px;
+background-color: #b69ce4;
+display: inline-block;
+margin-left: 10%;
+border-radius: 10%;
+
+}
+
+#headImage {
+
+	width: 350px;
+	height: 200px;
+	background-color: #7dcdf1;
+	display: inline-block;
+	float: right;
+	margin-right: 10%;
+	border-radius: 4%;
+
+
+}
+
+#menu {
+width: 80%;
+height: 50px;
+background-color: #f5a48b;
+margin-left: 10%;
+margin-right: 10%;
+display: flex;
+justify-content: space-evenly;
+
+}
+
+
+
+.menuText {
+
+display: inline-block;
+
+}
+
+
+.menuText:hover {
+	height: 25px;
+	background-color: #e87870;
+}
+
+#mainImage {
+	height: 500px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: #e87870;
+}
+
+#mainImageText {
+height: 500px;
+width: 750px;
+/*background-color: #e87870;*/
+float: right;
+padding-top: 125px;
+}
+
+#secondaryTextSomething {
+
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 500px;
+	background-color: #7dcdf1;
+}
+
+#secondaryImage {
+
+	width: 400px;
+	border-radius: 50%;
+	
+	
+
+
+/*	If this was an actual image, we could modify padding,
+	 but this is a div so we will modify margin*/
+}
+
+
+.imageStyle {
+
+	width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
