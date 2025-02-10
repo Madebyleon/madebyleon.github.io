@@ -16,7 +16,7 @@ noStroke();
 
 function draw() {
 	
-background(200);
+// background(200);
 
 
 	for (let i = 0; i<balls.length; i++) {
@@ -31,7 +31,7 @@ background(200);
 
 
 
-function mouseClicked() {
+function mouseMoved() {
 
 var b = new Bubbles();
 
