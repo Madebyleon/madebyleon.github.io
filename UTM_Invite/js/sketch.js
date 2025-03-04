@@ -20,7 +20,7 @@ textAlign(CENTER);
 textStyle(BOLD);
 noCursor();
 
-  let link = createA("https://nl06cvmfdn2.typeform.com/to/SC1Hpi1Z", "Sign Up Here!", "_blank");
+  let link = createA("https://forms.gle/daJb4fntKcyvuzGt7", "Sign Up Here!", "_blank");
 
   link.position(width/2, 700);
   link.style("font-size", "50px");
